@@ -52,7 +52,7 @@ The following is the recommended workflow for using the Cancer-AI platform:
 2. Download folder for ML algorithm to your local machine (SVM for example)
 3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If the mutations are uncharacterized, still enter an arbritrary label - this will not affect the predictions. 
 4. Run `python2.7 svm_testmodel.py` from the terminal
-5. Open output `ai_results.csv` to see predictions made by algorithm for each mutant system. *For "Activating Status Prediction": 1 = activating and 0  = non-activating* 
+5. Open output `ai_results.csv` to see predictions made by algorithm for each mutant system.
 
 ## More information 
 The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2) 
