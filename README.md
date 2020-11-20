@@ -20,7 +20,7 @@ Each folder contains the following core code for the implementation of each ML a
 3. paper_test_data 
 4. constructdata.py 
 
-`paper_train_data` contains the data used to train the ML algorithm. `paper_test_data` contains the data used to test the ML algorithm. The example test dataset focuses on mutations found in the TKD of the Anaplastic Lymphoma Kinase (ALK). The `constructdata.py` script contains 
+The `paper_train_data` text file contains the data used to train the ML algorithm. The `paper_test_data` text file contains the data used to test the ML algorithm. The example test dataset focuses on mutations found in the TKD of the Anaplastic Lymphoma Kinase (ALK). The `constructdata.py` script contains 
 
 ## How to use
 
