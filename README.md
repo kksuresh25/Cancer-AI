@@ -22,9 +22,11 @@ Each folder contains the following core code for the implementation of each ML a
 5. tunehyperparameters.py
 6. testmodel.py 
 
+The `all_kinase.xlsx` excel file contains information for the kinases that this algorithm can be used on. 
+
 The `paper_train_data` text file contains the data used to train the ML algorithm. The `paper_test_data` text file contains the data used to test the ML algorithm. The example test dataset focuses on mutations found in the TKD of the Anaplastic Lymphoma Kinase (ALK). Both of these files have the following data regarding the mutation: 
 
-1. the name of the kinase (BRAF, ALK, etc.); 
+1. the name of the kinase (BRAF, ALK, etc.) 
 2. the wild type residue
 3. the location of the point mutaiton 
 4. the mutant residue 
@@ -44,9 +46,12 @@ The `testmodel.py` script will train the ML algorithm using the data from `paper
 
 ## How to use
 
-The following walks through the workflow for using Cancer-AI 
+The following is the recommended workflow for using the Cancer-AI platform: 
 
-1. 
+1. Use the `pip install` command to ensure Python packages match those found in `requirements.txt` 
+2. Download a folder to your local machine (of the ML algorithm that you would like to use) 
+3. Input data you would like to test in `paper_test_data` in the exact same format as the examples already entered 
+4. 
 
 ## More information 
 The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2) 
