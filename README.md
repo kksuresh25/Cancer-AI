@@ -5,6 +5,15 @@ Cancer-AI is a computational platform developed for in silico profiling of activ
 ## Set-up 
 Before getting started, please check the `requirements.txt` to ensure that the correct version of Python packages are installed on your local machine. 
 
+There are four folders in the directory:  
+
+1. SVM 
+2. Logistic Regression
+3. Neural Network
+4. Random Forest 
+
+Each folder contains the code for the implementation of the 
+
 ## How to use
 
 
