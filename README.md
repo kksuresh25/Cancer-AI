@@ -36,7 +36,7 @@ The `constructdata.py` script contains a function for generating feature vectors
 
 The `tunehyperparameters.py` script contains a workflow for optimizing the hyperparameters for each ML algorthm. 
 
-The `testmodel.py` script will train the ML algorithm using the data from `paper_train_data` adn then apply this model to predcit the activating behavior of mutants provided in `paper_test_data`. The script will output a file `results.csv` that organizes the prediction results. If this script is being used for the purposes of validating the algorithm against known test data, then the following performance metrics will be displayed as well: 
+The `testmodel.py` script will train the ML algorithm using the data from `paper_train_data` adn then apply this model to predcit the activating behavior of mutants provided in `paper_test_data`. The script will output a file `ai_results.csv` that organizes the prediction results. If this script is being used for the purposes of validating the algorithm against known test data, then the following performance metrics will be displayed as well: 
 
 1. Accuracy 
 2. Balanced Accuracy 
