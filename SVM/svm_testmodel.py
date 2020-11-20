@@ -53,12 +53,12 @@ for i in range(0,len(lines)):
     words = lines[i].split()
     genes.append(words[0])
     mutations.append(words[1]+words[2]+words[3])
-    if y_pred[i] == - 1:
-        predictions.append(0)
+    if y_pred[i] == 0:
+        predictions.append(-1)
     else:
         predictions.append(y_pred[i])
 
 df = pd.DataFrame({'Gene': genes})
 df.insert(1,'Mutation',mutations)
 df.insert(2,'Activating Status Prediction',predictions)
-df.to_csv('alk_ai_results.csv',index=False,header=True)
+df.to_csv('ai_results.csv',index=False,header=True)
