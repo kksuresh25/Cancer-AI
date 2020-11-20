@@ -4,8 +4,6 @@
 Cancer-AI is a computational platform developed for in silico profiling of activating mutations in cancer. Our platform is able to robustly predict the activating behavior of uncharacterized mutations found in the tyrosine kinase domain (TKD) of kinases implicated in cancer with a **balanced accuracy of 82%**. Cancer-AI was developed in the Radhakrishnan Lab (http://www.seas.upenn.edu/~biophys) at the University of Pennsylvania. 
 
 ## Set-up  
-Before getting started, please check the `requirements.txt` to ensure that the correct version of Python packages are installed on your local machine. 
-
 There are four folders in the directory: 
 
 1. SVM 
@@ -45,7 +43,6 @@ The `testmodel.py` script will train the ML algorithm using the data from `paper
 5. ROC AUC 
 
 ## How to use
-
 The following is the recommended workflow for using the Cancer-AI platform: 
 
 1. Use the `pip install` command to ensure Python packages match those found in `requirements.txt` 
