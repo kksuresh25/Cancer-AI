@@ -49,9 +49,12 @@ The `testmodel.py` script will train the ML algorithm using the data from `paper
 The following is the recommended workflow for using the Cancer-AI platform: 
 
 1. Use the `pip install` command to ensure Python packages match those found in `requirements.txt` 
-2. Download a folder to your local machine (of the ML algorithm that you would like to use) 
-3. Input data you would like to test in `paper_test_data` in the exact same format as the examples already entered 
-4. 
+2. Download folder for ML algorithm to your local machine (SVM for example)
+3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. 
+  *Note: Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If the mutations are uncharacterized, still enter an arbritrary label - this will not affect the predictions.* 
+4. Run `python2.7 svm_testmodel.py` 
+  *Note: In the teriminal, use the `cd` command to make the SVM your working directory.*
+5. Open output `alk_ai_results.csv` to see predictions made by algorithm for each mutant system
 
 ## More information 
 The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2) 
