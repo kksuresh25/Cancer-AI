@@ -1,11 +1,7 @@
 # Cancer-AI
 
 ## Introduction 
-Cancer-AI is a computational platform developed for in silico profiling of activating mutations in cancer. Our platform is able to robustly predict the activating behavior of uncharacterized mutations found in the tyrosine kinase domain (TKD) of kinases implicated in cancer with a **balanced accuracy of 82%**. Cancer-AI was developed in the Radhakrishnan Lab (http://www.seas.upenn.edu/~biophys) at the University of Pennsylvania. 
-
-If you find this work useful in your research, please cite the following: 
-
-Jordan, E.J., Patil, K., Suresh, K. et al. Computational algorithms for in silico profiling of activating mutations in cancer. Cell. Mol. Life Sci. 76, 2663–2679 (2019). https://doi.org/10.1007/s00018-019-03097-2
+Cancer-AI is a computational platform developed for in silico profiling of activating mutations in cancer. Our platform is able to robustly predict the activating behavior of mutations found in the tyrosine kinase domain (TKD) of kinases implicated in cancer with a **balanced accuracy of 82%**. Cancer-AI was developed in the Radhakrishnan Lab (http://www.seas.upenn.edu/~biophys) at the University of Pennsylvania. 
 
 ## Set-up  
 There are four folders in the directory: 
@@ -57,3 +53,8 @@ The following is the recommended workflow for using the Cancer-AI platform:
 
 ## More information 
 The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2). 
+
+## Citation 
+If you find this code useful in your research, please consider citing: 
+
+Jordan, E.J., Patil, K., Suresh, K. et al. Computational algorithms for in silico profiling of activating mutations in cancer. Cell. Mol. Life Sci. 76, 2663–2679 (2019). https://doi.org/10.1007/s00018-019-03097-2
