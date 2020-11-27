@@ -3,6 +3,10 @@
 ## Introduction 
 Cancer-AI is a computational platform developed for in silico profiling of activating mutations in cancer. Our platform is able to robustly predict the activating behavior of uncharacterized mutations found in the tyrosine kinase domain (TKD) of kinases implicated in cancer with a **balanced accuracy of 82%**. Cancer-AI was developed in the Radhakrishnan Lab (http://www.seas.upenn.edu/~biophys) at the University of Pennsylvania. 
 
+If you find this work useful in your research, please cite the following: 
+
+Jordan, E.J., Patil, K., Suresh, K. et al. Computational algorithms for in silico profiling of activating mutations in cancer. Cell. Mol. Life Sci. 76, 2663–2679 (2019). https://doi.org/10.1007/s00018-019-03097-2
+
 ## Set-up  
 There are four folders in the directory: 
 
@@ -20,7 +24,7 @@ Each folder contains the following core code for the implementation of each ML a
 5. tunehyperparameters.py
 6. testmodel.py 
 
-The `all_kinase.xlsx` excel file contains information for the kinases that this algorithm can be used on. 
+The `all_kinase.xlsx` excel file contains information for the kinases that this algorithm can be used on. If a kinase of interest is not available in the file, feel free to manually enter the information for the system into the excel file. 
 
 The `paper_train_data` text file contains the data used to train the ML algorithm. The `paper_test_data` text file contains the data used to test the ML algorithm. The example test dataset focuses on mutations found in the TKD of the Anaplastic Lymphoma Kinase (ALK). Both of these files have the following data regarding the mutation: 
 
@@ -47,11 +51,9 @@ The following is the recommended workflow for using the Cancer-AI platform:
 
 1. Use `$ pip install package_name==version` to ensure Python packages match those found in `requirements.txt` 
 2. Download folder for ML algorithm to your local machine (SVM for example)
-3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If the mutations are uncharacterized, still enter an arbritrary label - this will not affect the predictions. 
+3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If the mutations are uncharacterized, still enter an arbritrary label (-1 or 1) - this will not affect the predictions. 
 4. Run `$ python svm_testmodel.py` from the terminal
 5. Open output `ai_results.csv` to see predictions made by algorithm for each mutant system.
 
 ## More information 
-The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2) 
-
-
+The following paper further details the methodology and applications of our platform: "Computational algorithms for in silico profiling of activating mutations in cancer" (https://doi.org/10.1007/s00018-019-03097-2). 
