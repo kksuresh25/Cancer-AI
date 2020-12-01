@@ -52,6 +52,6 @@ The following is the recommended workflow for using the Cancer-AI platform:
 5. Open output `ai_results.csv` to see predictions made by algorithm for each mutant system.
 
 ## More information & Citation
-The following paper further details the methodology and applications of our platform. If you find this code useful in your research, please consider citing: 
+The following paper further details the methodology and applications of our platform. If you find this code useful in your research, please cite: 
 
 Jordan, E.J., Patil, K., Suresh, K. et al. Computational algorithms for in silico profiling of activating mutations in cancer. Cell. Mol. Life Sci. 76, 2663–2679 (2019). https://doi.org/10.1007/s00018-019-03097-2
