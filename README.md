@@ -50,9 +50,10 @@ The following is the recommended workflow for using the Cancer-AI platform:
 3. Open the terminal and run the following commands: 
    1. `pip2 install virtualenv` 
    2.  `virtualenv --python=python2 venv`
-   3. `pip install -r requirements.txt`
-   4. `python predict.py`
-   5. `deactivate`
+   3. `source venv/bin/activate`
+   4. `pip install -r requirements.txt`
+   5. `python predict.py`
+   6. `deactivate`
 4. Open output `ai_results.csv` to see predictions made by ML algorithms for each mutant system 
 
 ## More information & Citation
