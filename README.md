@@ -48,11 +48,11 @@ The following is the recommended workflow for using the Cancer-AI platform:
 1. Download repository to local machine 
 2. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If the mutations are uncharacterized, still enter an arbritrary label (-1 or 1) - this will not affect the predictions. 
 3. Open the terminal and run the following commands: 
-    -`pip2 install virtualenv` 
-    -`virtualenv --python=python2 venv`
-    -`pip install -r requirements.txt`
-    -`python predict.py`
-    -`deactivate`
+   1. `pip2 install virtualenv` 
+   2.  `virtualenv --python=python2 venv`
+   3. `pip install -r requirements.txt`
+   4. `python predict.py`
+   5. `deactivate`
 4. Open output `ai_results.csv` to see predictions made by ML algorithms for each mutant system 
 
 ## More information & Citation
