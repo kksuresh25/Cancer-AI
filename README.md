@@ -47,7 +47,10 @@ The following is the recommended workflow for using the Cancer-AI platform:
 
 1. Download repository to local machine
 2. Open repository on local machine 
-3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. If a kinase of interest is not available in the file, feel free to manually enter the information for the system into the excel file.If the mutations are uncharacterized, still enter an arbritrary label (-1 or 1) - this will not affect the predictions. 
+3. Input mutations you need predictions for in `paper_test_data` in the exact same format as the examples already entered. 
+   1. Make sure that the mutations are in the TKD of the kinase and that the kinase can be found in `all_kinase.xlsx`. 
+   2. If a kinase of interest is not available in the file, feel free to manually enter the information for the system into the excel file.
+   3. If the mutations are uncharacterized, still enter an arbritrary label (-1 or 1) - this will not affect the predictions. 
 4. Open the terminal and run the following commands: 
    1. `cd` to directory of repository 
    2. `chmod +x cancer_ai.sh`
