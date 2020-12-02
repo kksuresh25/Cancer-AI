@@ -176,9 +176,6 @@ h = model.fit(x_train, y_train, batch_size=32, epochs=max_epochs, verbose=0, cal
 #evaluate model on test data
 np.set_printoptions(precision=4, suppress=True)
 eval_results = model.evaluate(features_test, labels_test, verbose=0)
-print("\nLoss, accuracy on test data: ")
-print("%0.4f %0.2f%%" % (eval_results[0], \
-  eval_results[1]*100))
 
 #make predictions on test data
 predictions = model.predict(features_test)
@@ -260,3 +257,6 @@ for i in range(0,len(lines)):
 df = pd.read_csv('ai_results.csv')
 df.insert(5,'Logistic Regression Prediction',predictions)
 df.to_csv('ai_results.csv',index=False,header=True)
+
+#########################  Completion Message ##################################
+print("ML analysis is complete! Open output 'ai_results.csv' to see predictions made by ML algorithms for each mutant system")
