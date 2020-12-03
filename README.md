@@ -43,6 +43,8 @@ The `testmodel.py` script will train the ML algorithm using the data from `paper
 5. ROC AUC 
 
 ## How to use
+Before using the platform, make sure that **Python 2.7** is installed on your local machine. If you do not have Python 2.7 on your machine, there are tutorials online that can help with the installation process. 
+
 The following is the recommended workflow for using the Cancer-AI platform:
 
 1. Download repository to local machine
